@@ -1,0 +1,5 @@
+.env
+
+.react-router/
+node_modules/
+build/

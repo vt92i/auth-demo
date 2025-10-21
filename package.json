@@ -1,0 +1,16 @@
+{
+  "name": "auth-demo",
+  "private": true,
+  "packageManager": "bun@^1",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "build": "bun --filter './apps/*' build",
+    "check": "bun --filter './apps/*' check",
+    "dev": "bun --filter './apps/*' dev",
+    "format": "bun --filter './apps/*' format",
+    "lint": "bun --filter './apps/*' lint"
+  }
+}
